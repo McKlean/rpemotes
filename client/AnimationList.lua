@@ -5726,6 +5726,7 @@ RP.Emotes = {
         "rcmme_amanda1_stand_loop_cop",
         "Cop 2",
         AnimationOptions = {
+            EmoteMoving = true,
             EmoteLoop = true
         }
     },
@@ -5734,7 +5735,16 @@ RP.Emotes = {
         "idle_b",
         "Cop 3",
         AnimationOptions = {
+            EmoteMoving = true,
             EmoteLoop = true
+        }
+    },
+    ["cop5"] = {
+        "amb@code_human_wander_idles_cop@male@static",
+        "static",
+        "Cop 5",
+        AnimationOptions = {
+            EmoteMoving = true,
         }
     },
     ["crossarms"] = {
